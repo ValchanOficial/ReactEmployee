@@ -1,15 +1,12 @@
 # React Employee
 
-
 ### Fake REST API
 - API: http://dummy.restapiexample.com/
 
 ### Start
 
-```js
-    yarn  install  // Install dependencies
-    yarn  start  // http://localhost:3000/
-```
+- yarn  install  // Install dependencies
+- yarn  start  // http://localhost:3000/
 
 ### Requirements
 - Build a table like interface to display the resource;
