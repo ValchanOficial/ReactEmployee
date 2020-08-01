@@ -65,3 +65,7 @@ input {
         margin-bottom: 8px;
     }
 }
+
+svg {
+    margin-left: 4px;
+}

@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from "react";
+import { FaSort } from 'react-icons/fa';
 
 import { filter, sortByTarget, reverseList } from '../../utils/util';
 
@@ -29,17 +30,17 @@ const Filter = ({employerList, setList}) => {
         <button 
           className={`filter__item ${context === 'name' && 'is-selected'}`}
           onClick={(e) => {handleClick('name'); handleSortList(e, 'name');}}>
-          Name
+          Name <FaSort/>
         </button>
         <button 
           className={`filter__item ${context === 'age' && 'is-selected'}`}
           onClick={(e) => {handleClick('age'); handleSortList(e, 'age');}}>
-          Age
+          Age <FaSort/>
         </button>
         <button 
           className={`filter__item ${context === 'salary' && 'is-selected'}`}
           onClick={(e) => {handleClick('salary'); handleSortList(e, 'salary');}}>
-          Salary
+          Salary <FaSort/>
         </button>
       </div>
     </div>

@@ -23,7 +23,7 @@ const Table = ({ list }) => {
                     </tr>
                 ) : (
                     <tr>
-                        <td colspan="3">Employer not found!</td>
+                        <td colSpan="3">Employer not found!</td>
                     </tr>
                 )}
             </tbody>
