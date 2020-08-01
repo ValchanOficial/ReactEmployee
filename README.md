@@ -1,4 +1,4 @@
-# ReactEmployee
+# React Employee
 
 
 ### Fake REST API
@@ -24,3 +24,8 @@
 ### Icons
 
 - https://fontawesome.com/
+
+
+### Reference Screenshot
+
+![React Employee](/docs/screenshot.png)
