@@ -23,7 +23,7 @@ const App = () => {
   return (
     <div className="App">
       <Header employerList={employerList} setList={setList} />
-      <Table list={list} />
+      <Table list={list} employerList={employerList} setList={setList} />
       <Footer />
     </div>
   );
